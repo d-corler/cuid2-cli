@@ -1,0 +1,15 @@
+[package]
+name = "cuid2-cli"
+version = "0.1.0-pre"
+authors = ['Damien CORLER <31737627+d-corler@users.noreply.github.com>']
+edition = "2021"
+description = "A simple wrapper for cuid2 script"
+repository = "https://github.com/d-corler/cuid2-cli"
+categories = ["command-line-interface"]
+keywords = ["cuid", "cli"]
+readme = "README.md"
+license = "MIT"
+
+[dependencies]
+clap = { version = "4.1.4", features = ["derive"] }
+cuid2 = "0.1.0"
